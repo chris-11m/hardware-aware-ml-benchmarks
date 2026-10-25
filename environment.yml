@@ -1,0 +1,16 @@
+name: architecture-ml
+
+channels:
+  - defaults
+
+dependencies:
+  - python=3.12
+  - pip
+  - numpy
+  - pandas
+  - scikit-learn
+  - xgboost
+  - matplotlib
+  - ipykernel
+  - pip:
+      - ucimlrepo==0.0.7
